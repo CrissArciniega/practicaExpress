@@ -70,7 +70,7 @@ app.get('/figura/deltoide/:d1/:d2', (req, res) => {
     res.send(`Deltoide: Área = ${area}, Perímetro = ${perimetro}`);
 });
 
-//consumo 6
+//consumo 6 (factorizado)
 app.get('/trinomio/:a/:b/:tipo', (req, res) => {
     const a = parseFloat(req.params.a);
     const b = parseFloat(req.params.b);
